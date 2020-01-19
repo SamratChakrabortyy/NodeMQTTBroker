@@ -1,0 +1,41 @@
+{
+  "name": "node-mqtt-broker-part-2",
+  "version": "0.0.1",
+  "description": "This is the MQTT broker to be replacement of ACTOR system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novatec1/NodeMQTTBroker.git"
+  },
+  "keywords": [
+    "Node",
+    "MQTT",
+    "Actor",
+    "System",
+    "Broker"
+  ],
+  "author": "Mihir Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Novatec1/NodeMQTTBroker/issues"
+  },
+  "homepage": "https://github.com/Novatec1/NodeMQTTBroker#readme",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "cassandra-driver": "^4.1.0",
+    "jsonpath": "^1.0.2",
+    "log4js": "^4.5.1",
+    "log4js-extend": "^0.2.1",
+    "moment": "^2.24.0",
+    "mosca": "^2.8.3",
+    "mqtt": "^3.0.0",
+    "node-json-transform": "^1.0.19",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "throng": "^4.0.0"
+  }
+}

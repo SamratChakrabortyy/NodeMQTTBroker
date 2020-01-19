@@ -1,0 +1,1 @@
+exports.MAC_REGEX = new RegExp(/^[a-fA-F0-9:]{17}|[a-fA-F0-9]{12}$/i);
